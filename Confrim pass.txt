@@ -1,0 +1,11 @@
+<div className="form-group">
+            <label htmlFor="confirm-password">Confirm Password:</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              onChange={(e) => {
+                setconfirmPass(e.target.value);
+              }}
+              // required
+            />

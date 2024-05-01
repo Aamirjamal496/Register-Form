@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: rgb(11, 11, 105);
+}
+@media only screen and (max-width: 1300px) {
+    .Name input{
+        width: 4rem;  
+        height: 1rem;  
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width: 1300px) {
+  /* For mobile phones: */
+    .header h1{
+        font-size:medium;
+    }
+}
+.body{
+    margin-left: 23rem;
+    margin-right: 23rem;
+    position: relative;
+    top: 120px;
+    left: 0;
+    text-align: center;
+    background: rgb(50, 50, 154);
+    height: 80vh;
+    box-shadow:1px 1px 1px 1px rgb(2, 38, 50);
+}
+.header{
+    background: #000;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.form{
+    margin-top: 2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    color: rgb(112, 112, 164);
+    font-size: large;
+}
+.form input{
+    
+    color: rgb(162, 162, 162);
+    padding: 8px;
+    border-radius: 4px;
+    /* border:  1px solid rgb(0, 0, 19); */
+    border: none;
+    margin-left: 5rem;
+    /* margin-right: 5px; */
+    background: rgb(11, 11, 105);
+}
+.Name{
+    display: flex;
+    
+}
+

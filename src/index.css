@@ -1,0 +1,115 @@
+
+
+/* For index Page */
+/* .App-container{
+    display: flex;
+    justify-items: center;
+    gap: 4;
+    margin-right: 8;
+    margin-left: 8;
+}
+.Log-btn{
+    padding: 12px;
+    background-color: rgb(40, 40, 158);
+    border-radius: 4px;
+    color: whitesmoke;
+    text-decoration: none;
+} */
+/* p-3 bg-red-800 rounded */
+/* .SignUP-btn{
+    padding:12px;
+    background-color: rgb(212, 34, 34);
+    border-radius: 4px;
+    color: whitesmoke;
+    text-decoration: none;
+} */
+/* For Login Page */
+/* .Login-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 36px;
+}
+.Log-header{
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.Input-div{
+    margin-top: 7px;
+}
+.Log-input{
+    border: 1px solid white;
+    display: block;
+    margin-bottom: 3px;
+    width: 20px;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right:4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.Login-btn{
+    border: 2px solid white;
+    padding:2px 2px 32px 32px;
+} */
+.Login-btn:hover{
+    background-color: rgb(87, 87, 201);
+}
+
+/* For Signup Page */
+body {
+        /* padding: 50px; */
+        background-color: blue;
+        font-family: Arial, sans-serif;
+        /* color: white; */
+    }
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        /* padding: 20px; */
+        border-radius: 3px 3px 3px 3rem;
+        box-shadow: 0px 0px 10px rgba(174, 169, 169, 0.1);
+        background-color: #f2f4fa;
+    }
+    .container h2{
+        background-color: rgb(224, 224, 234);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        /* opacity: 1.5; */
+    }
+    .form-group {
+        margin-bottom: 20px;
+        /* opacity: 1.5; */
+    }
+    label {
+        display: block;
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],input[type="number"],
+    select {
+        width: 94%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: rgb(212, 212, 219);
+    }
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: green;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: darkgreen;
+    }
